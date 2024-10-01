@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: black;
+   width: 100%;
+   padding: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+}
+nav ul{
+    margin-top: 15px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-right: 50px;
+}
+nav ul li a{
+    color: orange;
+    position: relative;
+    list-style-type: none;
+    font-size: 19px;
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    color: darkorange;
+}
+.logo:hover{
+    color: aqua;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+body{
+    background-color: azure;
+}
+.landing-section{
+    display: flex;
+}
+.left-section{
+    color: black;
+    padding-top: 175px;
+    padding-left: 125px;
+    max-width: 50%;
+}
+.left-section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font-bro{
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hire{
+    padding: 11px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+.hire:hover{
+    transform: scale(1.3);
+}
+.exp{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 11px;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+}
+.exp:hover{
+    transform: scale(1.3);
+}
+.tatti{
+    border-radius: 25%;
+    margin-top: 50px;
+    border: none;
+    padding: 60px;
+    height: 500px;
+     width: 400px;
+}
